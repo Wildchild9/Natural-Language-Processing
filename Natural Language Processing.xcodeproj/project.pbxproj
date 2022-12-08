@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C29D04D9223B17FE00061A71 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D04D8223B17FE00061A71 /* main.swift */; };
+		C29D04E0223B181300061A71 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D04DF223B181300061A71 /* Word.swift */; };
+		C29D04E2223B182800061A71 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D04E1223B182800061A71 /* Language.swift */; };
+		C29D04E4223B183600061A71 /* Locale Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D04E3223B183600061A71 /* Locale Extensions.swift */; };
+		C29D04E6223BE6B800061A71 /* String Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D04E5223BE6B800061A71 /* String Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C29D04D5223B17FE00061A71 /* Natural Language Procession */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Natural Language Procession"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29D04D5223B17FE00061A71 /* Natural Language Processing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Natural Language Processing"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29D04D8223B17FE00061A71 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C29D04DF223B181300061A71 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		C29D04E1223B182800061A71 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		C29D04E3223B183600061A71 /* Locale Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale Extensions.swift"; sourceTree = "<group>"; };
+		C29D04E5223BE6B800061A71 /* String Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +49,7 @@
 		C29D04CC223B17FE00061A71 = {
 			isa = PBXGroup;
 			children = (
-				C29D04D7223B17FE00061A71 /* Natural Language Procession */,
+				C29D04D7223B17FE00061A71 /* Natural Language Processing */,
 				C29D04D6223B17FE00061A71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +57,29 @@
 		C29D04D6223B17FE00061A71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C29D04D5223B17FE00061A71 /* Natural Language Procession */,
+				C29D04D5223B17FE00061A71 /* Natural Language Processing */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C29D04D7223B17FE00061A71 /* Natural Language Procession */ = {
+		C29D04D7223B17FE00061A71 /* Natural Language Processing */ = {
 			isa = PBXGroup;
 			children = (
 				C29D04D8223B17FE00061A71 /* main.swift */,
+				C29D04DF223B181300061A71 /* Word.swift */,
+				C29D04E1223B182800061A71 /* Language.swift */,
+				C29D04E3223B183600061A71 /* Locale Extensions.swift */,
+				C29D04E5223BE6B800061A71 /* String Extensions.swift */,
 			);
-			path = "Natural Language Procession";
+			path = "Natural Language Processing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C29D04D4223B17FE00061A71 /* Natural Language Procession */ = {
+		C29D04D4223B17FE00061A71 /* Natural Language Processing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C29D04DC223B17FE00061A71 /* Build configuration list for PBXNativeTarget "Natural Language Procession" */;
+			buildConfigurationList = C29D04DC223B17FE00061A71 /* Build configuration list for PBXNativeTarget "Natural Language Processing" */;
 			buildPhases = (
 				C29D04D1223B17FE00061A71 /* Sources */,
 				C29D04D2223B17FE00061A71 /* Frameworks */,
@@ -77,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = "Natural Language Procession";
+			name = "Natural Language Processing";
 			productName = "Natural Language Procession";
-			productReference = C29D04D5223B17FE00061A71 /* Natural Language Procession */;
+			productReference = C29D04D5223B17FE00061A71 /* Natural Language Processing */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -94,22 +106,24 @@
 				TargetAttributes = {
 					C29D04D4223B17FE00061A71 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
-			buildConfigurationList = C29D04D0223B17FE00061A71 /* Build configuration list for PBXProject "Natural Language Procession" */;
+			buildConfigurationList = C29D04D0223B17FE00061A71 /* Build configuration list for PBXProject "Natural Language Processing" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C29D04CC223B17FE00061A71;
 			productRefGroup = C29D04D6223B17FE00061A71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C29D04D4223B17FE00061A71 /* Natural Language Procession */,
+				C29D04D4223B17FE00061A71 /* Natural Language Processing */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29D04E6223BE6B800061A71 /* String Extensions.swift in Sources */,
+				C29D04E2223B182800061A71 /* Language.swift in Sources */,
 				C29D04D9223B17FE00061A71 /* main.swift in Sources */,
+				C29D04E4223B183600061A71 /* Locale Extensions.swift in Sources */,
+				C29D04E0223B181300061A71 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +265,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPFSXG2FT6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -257,14 +275,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPFSXG2FT6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C29D04D0223B17FE00061A71 /* Build configuration list for PBXProject "Natural Language Procession" */ = {
+		C29D04D0223B17FE00061A71 /* Build configuration list for PBXProject "Natural Language Processing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C29D04DA223B17FE00061A71 /* Debug */,
@@ -273,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C29D04DC223B17FE00061A71 /* Build configuration list for PBXNativeTarget "Natural Language Procession" */ = {
+		C29D04DC223B17FE00061A71 /* Build configuration list for PBXNativeTarget "Natural Language Processing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C29D04DD223B17FE00061A71 /* Debug */,
